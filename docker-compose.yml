@@ -1,13 +1,12 @@
-version: '3.8'
-
 services:
-  trabalho03-linux:
+  streaming-env:
     build: .
     container_name: trabalho03-streaming-edu
     ports:
       - "8080:80"
     volumes:
-      - ./scripts:/app/scripts
-      - ./source:/app/source
+      - .:/app
     stdin_open: true
     tty: true
+    restart: always
+    command: tail -f /dev/null

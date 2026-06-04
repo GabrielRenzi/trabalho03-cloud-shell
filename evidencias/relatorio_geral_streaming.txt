@@ -1,0 +1,26 @@
+==========================================================
+  RELATÓRIO CONSOLIDADO DE OPERAÇÕES - VPC-STREAMING-EDU
+  Emissão: 2026-06-04 13:31:57
+==========================================================
+
+1. VERIFICAÇÃO DE DIRETÓRIOS CRÍTICOS:
+----------------------------------------------------------
+[OK] Pasta de dados de mídia ativa.
+[OK] Repositório de backups disponível.
+
+2. ARQUIVOS DE BACKUP DISPONÍVEIS:
+----------------------------------------------------------
+total 0
+-rw-r--r-- 1 root root 285 Jun  4 13:12 backup_streaming_2026-06-04_13-12.tar.gz
+-rw-r--r-- 1 root root 285 Jun  4 13:14 backup_streaming_2026-06-04_13-14.tar.gz
+-rw-r--r-- 1 root root 285 Jun  4 13:25 backup_streaming_2026-06-04_13-25.tar.gz
+-rw-r--r-- 1 root root 284 Jun  4 13:30 backup_streaming_2026-06-04_13-30.tar.gz
+
+3. ÚLTIMAS 5 ENTRADAS DE ATUALIZAÇÃO DO SISTEMA:
+----------------------------------------------------------
+Preparing to unpack .../libgnutls30_3.7.3-4ubuntu1.9_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.7.3-4ubuntu1.9) over (3.7.3-4ubuntu1.8) ...
+Setting up libgnutls30:amd64 (3.7.3-4ubuntu1.9) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+[0;32m[SUCESSO] Sistema operacional atualizado com êxito![0m
+==========================================================

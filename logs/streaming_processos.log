@@ -1,0 +1,26 @@
+[2026-06-04 13:12:59] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Tentando restabelecer o serviço de streaming...[0m
+apache2: unrecognized service
+[0;31m[ERRO CRÍTICO] Falha ao tentar levantar o Apache2.[0m
+[2026-06-04 13:14:01] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Startando binário nativo de streaming...[0m
+[0;31m[ERRO CRÍTICO] Falha ao tentar levantar o Apache2 via apachectl.[0m
+[2026-06-04 13:14:32] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Startando binário nativo de streaming...[0m
+[0;31m[ERRO CRÍTICO] Falha ao tentar levantar o Apache2 via apachectl.[0m
+[2026-06-04 13:14:56] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Startando binário nativo de streaming...[0m
+[0;31m[ERRO CRÍTICO] Falha ao tentar levantar o Apache2 via apachectl.[0m
+[2026-06-04 13:16:01] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Startando binário nativo de streaming...[0m
+[0;31m[ERRO CRÍTICO] Falha ao tentar levantar o Apache2 via apachectl.[0m
+[2026-06-04 13:25:52] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Startando binário nativo de streaming...[0m
+AH00534: apache2: Configuration error: No MPM loaded.
+Action 'start' failed.
+The Apache error log may have more information.
+[0;31m[ERRO CRÍTICO] Falha ao tentar levantar o Apache2 via apachectl.[0m
+[2026-06-04 13:30:56] Verificando integridade dos daemons de streaming...
+[0;33m[AVISO] Apache2 fora do ar! Startando binário nativo de streaming...[0m
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[0;32m[SUCESSO] Apache2 iniciado e operacional em background![0m

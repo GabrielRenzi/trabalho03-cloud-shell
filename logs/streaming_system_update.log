@@ -1,0 +1,378 @@
+[2026-06-04 13:09:29] Iniciando atualização do ecossistema de streaming...
+Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7129 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1299 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3974 kB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [77.8 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1607 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [7400 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [86.4 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4313 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.8 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+Fetched 46.4 MB in 3s (15.7 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  libgcrypt20 libgnutls30 liblzma5
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1587 kB of archives.
+After this operation, 8192 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcrypt20 amd64 1.9.4-3ubuntu3.2 [516 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblzma5 amd64 5.2.5-2ubuntu1.1 [99.6 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgnutls30 amd64 3.7.3-4ubuntu1.9 [971 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1587 kB in 0s (12.4 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5828 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.9.4-3ubuntu3.2_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.9.4-3ubuntu3.2) over (1.9.4-3ubuntu3) ...
+Setting up libgcrypt20:amd64 (1.9.4-3ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5828 files and directories currently installed.)
+Preparing to unpack .../liblzma5_5.2.5-2ubuntu1.1_amd64.deb ...
+Unpacking liblzma5:amd64 (5.2.5-2ubuntu1.1) over (5.2.5-2ubuntu1) ...
+Setting up liblzma5:amd64 (5.2.5-2ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5828 files and directories currently installed.)
+Preparing to unpack .../libgnutls30_3.7.3-4ubuntu1.9_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.7.3-4ubuntu1.9) over (3.7.3-4ubuntu1.8) ...
+Setting up libgnutls30:amd64 (3.7.3-4ubuntu1.9) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+[0;32m[SUCESSO] Sistema operacional atualizado com êxito![0m
+[2026-06-04 13:12:21] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes.[0m
+[2026-06-04 13:12:39] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes.[0m
+[2026-06-04 13:14:38] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes.[0m
+[2026-06-04 13:16:14] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes.[0m
+[2026-06-04 13:17:19] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes.[0m
+[2026-06-04 13:17:31] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes.[0m
+[2026-06-04 13:18:22] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem. 
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes. Verifique o arquivo /app/logs/streaming_system_update.log[0m
+[2026-06-04 13:20:55] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  alsa-topology-conf alsa-ucm-conf dbus fontconfig-config fonts-dejavu-core
+  libaom3 libapparmor1 libasound2 libasound2-data libavutil56 libbsd0
+  libcairo-gobject2 libcairo2 libcodec2-1.0 libdav1d5 libdbus-1-3
+  libdrm-common libdrm2 libedit2 libelf1 libfontconfig1 libfreetype6
+  libfribidi0 libgdk-pixbuf2.0-common libglib2.0-0 libglib2.0-data libgsm1
+  libmd0 libmfx1 libmp3lame0 libnuma1 libopenjp2-7 libopus0 libpixman-1-0
+  libpng16-16 libslang2 libusb-1.0-0 libva-drm2 libva-x11-2 libva2 libvdpau1
+  libx11-6 libx11-data libxau6 libxcb-render0 libxcb-shm0 libxcb1 libxdmcp6
+  libxext6 libxfixes3 libxrender1 ocl-icd-libopencl1 shared-mime-info ucf
+  xdg-user-dirs xkb-data
+Use 'apt autoremove' to remove them.
+The following packages will be upgraded:
+  libjpeg-turbo8
+1 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2 not fully installed or removed.
+Need to get 134 kB of archives.
+After this operation, 556 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 134 kB in 0s (3741 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10654 files and directories currently installed.)
+Preparing to unpack .../libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) over (2.1.2-0ubuntu1) ...
+Setting up apache2 (2.4.52-1ubuntu4.20) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+/usr/bin/deb-systemd-helper: error: systemctl preset failed on apache2.service: No such file or directory
+/usr/bin/deb-systemd-helper: error: systemctl preset failed on apache-htcacheclean.service: No such file or directory
+update-rc.d: error: cannot find a LSB script for apache-htcacheclean
+dpkg: error processing package apache2 (--configure):
+ installed apache2 package post-installation script subprocess returned error exit status 1
+Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXrender.so.1.3.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxml2.so.2.9.13 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libfribidi.so.0.4.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmp3lame.so.0.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libva.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXdmcp.so.6.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgdbm_compat.so.4.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libfontconfig.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libaprutil-1.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcairo-gobject.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libdbus-1.so.3 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libX11.so.6.4.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libopus.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicui18n.so.70 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libopus.so.0.8.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicuuc.so.70 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libdrm.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libglib-2.0.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXrender.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libjansson.so.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicudata.so.70.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcairo.so.2.11600.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgsm.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libopenjp2.so.7 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libavutil.so.56 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libdav1d.so.5 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/liblua5.3-c++.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgio-2.0.so.0.7200.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libslang.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libaom.so.3.3.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libva-x11.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcairo-gobject.so.2.11600.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicutu.so.70 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/liblua5.3.so.0.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgobject-2.0.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmagic.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libasound.so.2.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmfxhw64.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicuuc.so.70.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libelf.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libfreetype.so.6.18.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicutu.so.70.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libusb-1.0.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXext.so.6.4.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libva-drm.so.2.1400.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXext.so.6 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libbsd.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libelf-0.186.so is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libopenjp2.so.2.4.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libjansson.so.4.13.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libpng16.so.16.37.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/liblua5.3-c++.so.0.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libdav1d.so.5.1.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmagic.so.1.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libva-drm.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libperl.so.5.34.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgsm.so.1.0.19 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxcb-render.so.0.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgdbm.so.6.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcairo.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmfx.so.1.35 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxcb.so.1.1.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libapr-1.so.0.7.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgthread-2.0.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXfixes.so.3.1.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libfribidi.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmd.so.0.0.5 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libdrm.so.2.4.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libslang.so.2.3.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgio-2.0.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libva.so.2.1400.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmfxhw64.so.1.35 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libbsd.so.0.11.5 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgdbm_compat.so.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicuio.so.70.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libfreetype.so.6 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXdmcp.so.6 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicudata.so.70 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmd.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libperl.so.5.34 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7200.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libedit.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXau.so.6 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libpng16.so.16 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libdbus-1.so.3.19.13 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libpixman-1.so.0.40.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicuio.so.70 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgthread-2.0.so.0.7200.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libX11.so.6 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgdbm.so.6 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicutest.so.70 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libedit.so.2.0.68 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnuma.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxcb-render.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libaom.so.3 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libOpenCL.so.1.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libavutil.so.56.70.100 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libaprutil-1.so.0.6.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libasound.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXau.so.6.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libpixman-1.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmp3lame.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libcodec2.so.1.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libXfixes.so.3 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/liblua5.3.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libvdpau.so.1.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libvdpau.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libfontconfig.so.1.12.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libnuma.so.1.0.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libusb-1.0.so.0.3.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libapparmor.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicutest.so.70.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libicui18n.so.70.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libgmodule-2.0.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxml2.so.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libapparmor.so.1.8.2 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmfx.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libva-x11.so.2.1400.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxcb-shm.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmfx-tracer.so.1.35 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libapr-1.so.0 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libOpenCL.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libxcb.so.1 is empty, not checked.
+/sbin/ldconfig.real: File /lib/x86_64-linux-gnu/libmfx-tracer.so.1 is empty, not checked.
+Errors were encountered while processing:
+ apache2
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes. Verifique o arquivo /app/logs/streaming_system_update.log[0m
+[2026-06-04 13:21:49] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  alsa-topology-conf alsa-ucm-conf dbus fontconfig-config fonts-dejavu-core
+  libaom3 libapparmor1 libasound2 libasound2-data libavutil56 libbsd0
+  libcairo-gobject2 libcairo2 libcodec2-1.0 libdav1d5 libdbus-1-3
+  libdrm-common libdrm2 libedit2 libelf1 libfontconfig1 libfreetype6
+  libfribidi0 libgdk-pixbuf2.0-common libglib2.0-0 libglib2.0-data libgsm1
+  libjpeg-turbo8 libmd0 libmfx1 libmp3lame0 libnuma1 libopenjp2-7 libopus0
+  libpixman-1-0 libpng16-16 libslang2 libusb-1.0-0 libva-drm2 libva-x11-2
+  libva2 libvdpau1 libx11-6 libx11-data libxau6 libxcb-render0 libxcb-shm0
+  libxcb1 libxdmcp6 libxext6 libxfixes3 libxrender1 ocl-icd-libopencl1
+  shared-mime-info ucf xdg-user-dirs xkb-data
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+1 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Setting up apache2 (2.4.52-1ubuntu4.20) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+/usr/bin/deb-systemd-helper: error: systemctl preset failed on apache2.service: No such file or directory
+/usr/bin/deb-systemd-helper: error: systemctl preset failed on apache-htcacheclean.service: No such file or directory
+update-rc.d: error: cannot find a LSB script for apache-htcacheclean
+dpkg: error processing package apache2 (--configure):
+ installed apache2 package post-installation script subprocess returned error exit status 1
+Errors were encountered while processing:
+ apache2
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+[0;31m[FALHA] Ocorreu um erro crítico na atualização dos pacotes. Verifique o arquivo /app/logs/streaming_system_update.log[0m
+[2026-06-04 13:24:19] Iniciando atualização do ecossistema de streaming...
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[0;32m[SUCESSO] Sistema operacional atualizado com êxito![0m
+[2026-06-04 13:29:31] Iniciando atualização do ecossistema de streaming...
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3974 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7129 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [77.8 kB]
+Get:6 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1299 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4313 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [7400 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [86.4 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1607 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.8 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+Fetched 46.4 MB in 3s (15.2 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages will be upgraded:
+  libgcrypt20 libgnutls30 liblzma5
+3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1587 kB of archives.
+After this operation, 8192 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcrypt20 amd64 1.9.4-3ubuntu3.2 [516 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblzma5 amd64 5.2.5-2ubuntu1.1 [99.6 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgnutls30 amd64 3.7.3-4ubuntu1.9 [971 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1587 kB in 0s (9558 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5828 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.9.4-3ubuntu3.2_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.9.4-3ubuntu3.2) over (1.9.4-3ubuntu3) ...
+Setting up libgcrypt20:amd64 (1.9.4-3ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5828 files and directories currently installed.)
+Preparing to unpack .../liblzma5_5.2.5-2ubuntu1.1_amd64.deb ...
+Unpacking liblzma5:amd64 (5.2.5-2ubuntu1.1) over (5.2.5-2ubuntu1) ...
+Setting up liblzma5:amd64 (5.2.5-2ubuntu1.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5828 files and directories currently installed.)
+Preparing to unpack .../libgnutls30_3.7.3-4ubuntu1.9_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.7.3-4ubuntu1.9) over (3.7.3-4ubuntu1.8) ...
+Setting up libgnutls30:amd64 (3.7.3-4ubuntu1.9) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+[0;32m[SUCESSO] Sistema operacional atualizado com êxito![0m

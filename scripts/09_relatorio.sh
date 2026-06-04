@@ -1,8 +1,7 @@
 #!/bin/bash
-# -------------------------------------------------------------------------
+
 # Script: 09_relatorio.sh
 # Descrição: Consolidador do status operacional e logs gerados
-# -------------------------------------------------------------------------
 
 RELATORIO_OUTPUT="/app/evidencias/relatorio_geral_streaming.txt"
 

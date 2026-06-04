@@ -1,0 +1,35 @@
+[2026-06-04 13:12:47] Configurando diretórios da aplicação...
+[0;32m[SUCESSO] Estrutura de pastas para streaming criada com sucesso em /app/vpc_streaming_edu![0m
+total 0
+drwxr-xr-x 1 root root 4096 Jun  4 13:12 lives_gravadas
+drwxr-xr-x 1 root root 4096 Jun  4 13:12 logs_transmissao
+drwxr-xr-x 1 root root 4096 Jun  4 13:12 metadados_cursos
+-rw-r--r-- 1 root root   32 Jun  4 13:12 status.txt
+drwxr-xr-x 1 root root 4096 Jun  4 13:12 video_aulas
+[2026-06-04 13:14:46] Configurando diretórios da aplicação...
+Limpando versões antigas do diretório do app...
+[0;32m[SUCESSO] Estrutura de pastas para streaming criada com sucesso em /app/vpc_streaming_edu![0m
+total 0
+drwxr-xr-x 1 root root 4096 Jun  4 13:14 lives_gravadas
+drwxr-xr-x 1 root root 4096 Jun  4 13:14 logs_transmissao
+drwxr-xr-x 1 root root 4096 Jun  4 13:14 metadados_cursos
+-rw-r--r-- 1 root root   32 Jun  4 13:14 status.txt
+drwxr-xr-x 1 root root 4096 Jun  4 13:14 video_aulas
+[2026-06-04 13:25:46] Configurando diretórios da aplicação...
+Limpando versões antigas do diretório do app...
+[0;32m[SUCESSO] Estrutura de pastas para streaming criada com sucesso em /app/vpc_streaming_edu![0m
+total 0
+drwxr-xr-x 1 root root 4096 Jun  4 13:25 lives_gravadas
+drwxr-xr-x 1 root root 4096 Jun  4 13:25 logs_transmissao
+drwxr-xr-x 1 root root 4096 Jun  4 13:25 metadados_cursos
+-rw-r--r-- 1 root root   32 Jun  4 13:25 status.txt
+drwxr-xr-x 1 root root 4096 Jun  4 13:25 video_aulas
+[2026-06-04 13:30:50] Configurando diretórios da aplicação...
+Limpando versões antigas do diretório do app...
+[0;32m[SUCESSO] Estrutura de pastas para streaming criada com sucesso em /app/vpc_streaming_edu![0m
+total 0
+drwxr-xr-x 1 root root 4096 Jun  4 13:30 lives_gravadas
+drwxr-xr-x 1 root root 4096 Jun  4 13:30 logs_transmissao
+drwxr-xr-x 1 root root 4096 Jun  4 13:30 metadados_cursos
+-rw-r--r-- 1 root root   32 Jun  4 13:30 status.txt
+drwxr-xr-x 1 root root 4096 Jun  4 13:30 video_aulas

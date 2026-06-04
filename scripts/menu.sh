@@ -1,8 +1,7 @@
 #!/bin/bash
-# -------------------------------------------------------------------------
+
 # Script: menu.sh
 # Descrição: Painel de Controle Central - Plataforma VPC-Streaming-Edu
-# -------------------------------------------------------------------------
 
 # Função para exibir o cabeçalho personalizado do tema
 exibir_cabecalho() {
@@ -15,7 +14,6 @@ exibir_cabecalho() {
     echo "=========================================================="
 }
 
-# Loop principal do menu interativo
 while true; do
     exibir_cabecalho
     echo " [1] Atualizar Sistema (01_update.sh)"

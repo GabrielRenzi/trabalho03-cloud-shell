@@ -1,8 +1,7 @@
 #!/bin/bash
-# -------------------------------------------------------------------------
+
 # Script: 05_deploy.sh
 # Descrição: Deploy automatizado do portal web da plataforma VPC-Streaming-Edu
-# -------------------------------------------------------------------------
 
 DIR_SOURCE="/app/source"
 DIR_TARGET="/var/www/html"
@@ -17,11 +16,11 @@ executar_deploy() {
         return 1
     fi
 
-    # Limpeza segura do diretório de destino (remover páginas antigas ou index.html padrão)
+    # remover páginas antigas ou index.html padrão
     echo "Limpando diretório do servidor web ($DIR_TARGET)..." >> "$LOG_FILE"
     rm -rf "${DIR_TARGET:?}/*"
 
-    # Copia os arquivos estáticos para a pasta do Apache
+    # Copia os arquivos para a pasta do Apache
     cp -r "$DIR_SOURCE"/* "$DIR_TARGET/" >> "$LOG_FILE" 2>&1
 
     # Validação obrigatória da existência do arquivo index.html no destino

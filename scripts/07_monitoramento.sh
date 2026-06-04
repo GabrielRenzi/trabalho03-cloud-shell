@@ -1,8 +1,7 @@
 #!/bin/bash
-# -------------------------------------------------------------------------
+
 # Script: 07_monitoramento.sh
 # Descrição: Coleta de métricas de hardware da infraestrutura de vídeo
-# -------------------------------------------------------------------------
 
 LOG_FILE="/app/logs/streaming_monitoramento.log"
 EVIDENCIA_DIR="/app/evidencias"
@@ -13,7 +12,6 @@ coletar_metricas() {
     
     mkdir -p "$EVIDENCIA_DIR"
     
-    # Constrói o relatório de consumo
     {
         echo "=================================================="
         echo "   MÉTRICAS DE HARDWARE - VPC-STREAMING-EDU"

@@ -1,8 +1,7 @@
 #!/bin/bash
-# -------------------------------------------------------------------------
+
 # Script: 08_usuarios_permissoes.sh
 # Descrição: Criação de usuário operacional e isolamento de privilégios de mídia
-# -------------------------------------------------------------------------
 
 LOG_FILE="/app/logs/streaming_permissoes.log"
 USUARIO_TEMATICO="admin_stream"
@@ -19,14 +18,14 @@ configurar_seguranca() {
         useradd -m -s /bin/bash "$USUARIO_TEMATICO" >> "$LOG_FILE" 2>&1
     fi
     
-    # Garante que a pasta de mídia existe antes de aplicar as permissões
+    # Garante que a pasta de mídia existe
     if [ -d "$DIR_DADOS" ]; then
         echo "Aplicando política de segurança Chmod 755 e Chown em ${DIR_DADOS}..." >> "$LOG_FILE"
         
         # Define o dono e o grupo do diretório
         chown -R "${USUARIO_TEMATICO}:${USUARIO_TEMATICO}" "$DIR_DADOS" >> "$LOG_FILE" 2>&1
         
-        # Garante leitura/escrita pro dono, leitura/execução para os demais
+        # Garante leitura e escrita pro dono, leitura e execução para os demais
         chmod -R 755 "$DIR_DADOS" >> "$LOG_FILE" 2>&1
         
         echo -e "\033[0;32m[SUCESSO] Permissões aplicadas e amarradas ao usuário ${USUARIO_TEMATICO}!\033[0m" | tee -a "$LOG_FILE"

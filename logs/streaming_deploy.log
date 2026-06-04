@@ -1,0 +1,36 @@
+[2026-06-04 13:12:56] Iniciando pipeline de deploy de produção...
+Limpando diretório do servidor web (/var/www/html)...
+[0;32m[SUCESSO] Deploy realizado com sucesso no Apache![0m
+Arquivos publicados atualmente:
+total 12
+drwxr-xr-x 2 root root 4096 Jun  4 13:12 .
+drwxr-xr-x 3 root root 4096 Jun  4 13:10 ..
+-rwxr-xr-x 1 root root  869 Jun  4 13:12 index.html
+-rwxr-xr-x 1 root root    0 Jun  4 13:12 sobre.html
+[2026-06-04 13:14:54] Iniciando pipeline de deploy de produção...
+Limpando diretório do servidor web (/var/www/html)...
+[0;32m[SUCESSO] Deploy realizado com sucesso no Apache![0m
+Arquivos publicados atualmente:
+total 12
+drwxr-xr-x 2 root root 4096 Jun  4 13:12 .
+drwxr-xr-x 3 root root 4096 Jun  4 13:10 ..
+-rwxr-xr-x 1 root root  869 Jun  4 13:14 index.html
+-rwxr-xr-x 1 root root    0 Jun  4 13:14 sobre.html
+[2026-06-04 13:25:51] Iniciando pipeline de deploy de produção...
+Limpando diretório do servidor web (/var/www/html)...
+[0;32m[SUCESSO] Deploy realizado com sucesso no Apache![0m
+Arquivos publicados atualmente:
+total 12
+drwxr-xr-x 2 root root 4096 Jun  4 13:12 .
+drwxr-xr-x 3 root root 4096 Jun  4 13:10 ..
+-rwxr-xr-x 1 root root  869 Jun  4 13:25 index.html
+-rwxr-xr-x 1 root root    0 Jun  4 13:25 sobre.html
+[2026-06-04 13:30:55] Iniciando pipeline de deploy de produção...
+Limpando diretório do servidor web (/var/www/html)...
+[0;32m[SUCESSO] Deploy realizado com sucesso no Apache![0m
+Arquivos publicados atualmente:
+total 12
+drwxr-xr-x 2 root root 4096 Jun  4 13:30 .
+drwxr-xr-x 3 root root 4096 Jun  4 13:30 ..
+-rw-r--r-- 1 root root  869 Jun  4 13:30 index.html
+-rwxr-xr-x 1 root root    0 Jun  4 13:30 sobre.html
