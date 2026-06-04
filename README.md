@@ -77,6 +77,7 @@ docker ps
 docker exec -it trabalho03-streaming-edu bash
 cd /app/scripts
 chmod +x *.sh
+sed -i 's/\r$//' *.sh (E)
 ./menu.sh
 ```
 
