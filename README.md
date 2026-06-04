@@ -124,3 +124,6 @@ Quando um script falhava na metade, os arquivos de configuração do Ubuntu corr
 
 O Apache não iniciava normalmente pela falta do systemd. Foi necessário usar ferramentas nativas como apachectl start e carregar variáveis de ambiente manualmente source /etc/apache2/envvars.
 
+## 🤖 Explicação sobre Uso de IA
+Foi utilizado a IA para fazer o README.md, concertar alguns erros que foram citados nas principais dificuldades, ajuda no desenvolvimento e melhoria de alguns scripts que não sabia como fazer e no desenvolvimento do HTML.
+
