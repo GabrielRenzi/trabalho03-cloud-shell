@@ -69,6 +69,7 @@ trabalho03-cloud-shell/
 - **menu.sh:** Painel interativo (Dashboard textual) que centraliza a execução de todos os outros scripts por meio de opções numéricas.   
 
 ## ⚙️ Como Executar o Projeto
+```text
 git clone https://github.com/GabrielRenzi/trabalho03-cloud-shell.git
 cd trabalho03-cloud-shell
 docker compose up -d --build
@@ -77,13 +78,17 @@ docker exec -it trabalho03-streaming-edu bash
 cd /app/scripts
 chmod +x *.sh
 ./menu.sh
+```
 
 ## 🕹️ Como executar o menu principal
+```text
 cd /app/scripts
 chmod +x *.sh
 ./menu.sh
+```
 
 ## 🧪 Como executar cada script individualmente
+```text
 ./01_update.sh
 ./02_apache.sh
 ./03_estrutura.sh
@@ -93,6 +98,7 @@ chmod +x *.sh
 ./07_monitoramento.sh
 ./08_usuarios_permissoes.sh
 ./09_relatorio.sh
+```
 
 ## 🌐 Como acessar o Apache no navegador
 Após executar os scripts de instalação (02_apache.sh) e deploy (05_deploy.sh), o site já estará disponível. Abra o navegador em seu computador e acesse:
