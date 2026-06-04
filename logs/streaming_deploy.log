@@ -58,3 +58,12 @@ drwxr-xr-x 3 root root 4096 Jun  4 13:30 ..
 -rwxr-xr-x 1 root root  209 Jun  4 18:45 package.json
 -rwxr-xr-x 1 root root    0 Jun  4 18:45 sobre.html
 -rwxr-xr-x 1 root root 1544 Jun  4 19:00 style.css
+[2026-06-04 19:25:31] Iniciando pipeline de deploy de produção...
+Limpando diretório do servidor web (/var/www/html)...
+[0;32m[SUCESSO] Deploy realizado com sucesso no Apache![0m
+Arquivos publicados atualmente:
+total 20
+drwxr-xr-x 2 root root 4096 Jun  4 19:25 .
+drwxr-xr-x 3 root root 4096 Jun  4 19:25 ..
+-rw-r--r-- 1 root root 4926 Jun  4 19:25 index.html
+-rwxr-xr-x 1 root root 1544 Jun  4 19:25 style.css

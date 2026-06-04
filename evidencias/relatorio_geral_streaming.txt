@@ -1,6 +1,6 @@
 ==========================================================
   RELATÓRIO CONSOLIDADO DE OPERAÇÕES - VPC-STREAMING-EDU
-  Emissão: 2026-06-04 13:31:57
+  Emissão: 2026-06-04 19:25:37
 ==========================================================
 
 1. VERIFICAÇÃO DE DIRETÓRIOS CRÍTICOS:
@@ -11,10 +11,11 @@
 2. ARQUIVOS DE BACKUP DISPONÍVEIS:
 ----------------------------------------------------------
 total 0
--rw-r--r-- 1 root root 285 Jun  4 13:12 backup_streaming_2026-06-04_13-12.tar.gz
--rw-r--r-- 1 root root 285 Jun  4 13:14 backup_streaming_2026-06-04_13-14.tar.gz
--rw-r--r-- 1 root root 285 Jun  4 13:25 backup_streaming_2026-06-04_13-25.tar.gz
--rw-r--r-- 1 root root 284 Jun  4 13:30 backup_streaming_2026-06-04_13-30.tar.gz
+-rwxrwxrwx 1 root root 285 Jun  4 19:23 backup_streaming_2026-06-04_13-12.tar.gz
+-rwxrwxrwx 1 root root 285 Jun  4 19:23 backup_streaming_2026-06-04_13-14.tar.gz
+-rwxrwxrwx 1 root root 285 Jun  4 19:23 backup_streaming_2026-06-04_13-25.tar.gz
+-rwxrwxrwx 1 root root 284 Jun  4 19:23 backup_streaming_2026-06-04_13-30.tar.gz
+-rw-r--r-- 1 root root 285 Jun  4 19:25 backup_streaming_2026-06-04_19-25.tar.gz
 
 3. ÚLTIMAS 5 ENTRADAS DE ATUALIZAÇÃO DO SISTEMA:
 ----------------------------------------------------------
