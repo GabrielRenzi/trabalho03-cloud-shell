@@ -25,6 +25,7 @@ Este projeto consiste na simulação e automação de um ambiente de servidor Li
 ---
 
 ## 📂 Estrutura de Diretórios do Projeto
+```text
 trabalho03-cloud-shell/
 ├── Dockerfile
 ├── docker-compose.yml
@@ -43,7 +44,7 @@ trabalho03-cloud-shell/
     ├── 07_monitoramento.sh
     ├── 08_usuarios_permissoes.sh
     └── 09_relatorio.sh
-
+```
 ---
 
 ## 🧠 Explicação de Cada Script
