@@ -2,94 +2,106 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>EduStream - CRUD Completo</title>
+    <title>EduStream - VPC Educacional</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>EduStream: Plataforma de Vídeos</h1>
+    <h1>🚀 VPC-Streaming-Edu</h1>
     
-    <form action="/videos" method="POST" id="videoForm">
+    <form id="videoForm">
         <h3 id="formTitle">Cadastrar Novo Vídeo</h3>
         <input type="hidden" id="videoId">
-        <input type="text" id="titulo" name="titulo" placeholder="Título do Vídeo" required>
-        <input type="text" id="url" name="url" placeholder="Link do Vídeo" required>
-        <textarea id="descricao" name="descricao" placeholder="Descrição" rows="3"></textarea>
-        <button type="submit" id="btnSubmit">Cadastrar Vídeo</button>
-        <button type="button" id="btnCancelar" style="display:none; background-color: #95a5a6;" onclick="resetForm()">Cancelar Edição</button>
+        <input type="text" id="titulo" placeholder="Título da Aula" required>
+        <input type="text" id="url" placeholder="Link do Vídeo (URL)" required>
+        <textarea id="descricao" placeholder="Descrição da aula..." rows="3"></textarea>
+        <button type="submit" id="btnSubmit">Salvar Aula</button>
+        <button type="button" id="btnCancelar" style="display:none; background-color: #95a5a6; margin-top:10px;" onclick="resetForm()">Cancelar Edição</button>
     </form>
 
-    <hr style="width: 100%; max-width: 1000px; opacity: 0.2;">
-    <h3>Vídeos Disponíveis</h3>
-    <div id="lista-videos"></div>
+    <hr style="width: 100%; max-width: 500px; opacity: 0.2; margin: 20px 0;">
+    <h3>📚 Aulas Disponíveis</h3>
+    <div id="lista-videos" style="width: 100%; max-width: 500px;"></div>
 
     <script>
+        // Lógica Front-end pura (Substitui o Node.js usando LocalStorage)
         const listaDiv = document.getElementById('lista-videos');
+        const videoForm = document.getElementById('videoForm');
+
+        // Carrega os vídeos do navegador ou inicia um array vazio
+        let videos = JSON.parse(localStorage.getItem('vpc_videos')) || [];
 
         function carregarVideos() {
-            fetch('/api/videos')
-                .then(res => res.json())
-                .then(videos => {
-                    listaDiv.innerHTML = '';
-                    videos.forEach(v => {
-                        listaDiv.innerHTML += `
-                            <div class="video-card">
-                                <strong>${v.titulo}</strong><br>
-                                <a href="${v.url}" target="_blank">${v.url}</a>
-                                <p>${v.descricao}</p>
-                                <button onclick="prepararEdicao('${v._id}', '${v.titulo}', '${v.url}', '${v.descricao}')" style="width:auto; padding:5px 10px; background:#f39c12;">Editar</button>
-                                <button onclick="deletarVideo('${v._id}')" style="width:auto; padding:5px 10px; background:#e74c3c;">Excluir</button>
-                            </div>`;
-                    });
-                });
-        }
-
-        function deletarVideo(id) {
-            if(confirm('Tem certeza que deseja excluir?')) {
-                fetch(`/api/videos/${id}`, { method: 'DELETE' })
-                    .then(() => carregarVideos());
+            listaDiv.innerHTML = '';
+            if(videos.length === 0) {
+                listaDiv.innerHTML = '<p style="text-align:center; color:#777;">Nenhuma aula cadastrada ainda.</p>';
+                return;
             }
-        }
 
-        function prepararEdicao(id, titulo, url, desc) {
-            document.getElementById('videoId').value = id;
-            document.getElementById('titulo').value = titulo;
-            document.getElementById('url').value = url;
-            document.getElementById('descricao').value = desc;
-            
-            document.getElementById('formTitle').innerText = "Alterar Vídeo";
-            document.getElementById('btnSubmit').innerText = "Salvar Alterações";
-            document.getElementById('btnCancelar').style.display = "block";
-            document.getElementById('videoForm').action = "javascript:void(0)";
-            document.getElementById('videoForm').onsubmit = salvarEdicao;
-        }
-
-        function salvarEdicao() {
-            const id = document.getElementById('videoId').value;
-            const dados = {
-                titulo: document.getElementById('titulo').value,
-                url: document.getElementById('url').value,
-                descricao: document.getElementById('descricao').value
-            };
-
-            fetch(`/api/videos/${id}`, {
-                method: 'PUT',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(dados)
-            }).then(() => {
-                resetForm();
-                carregarVideos();
+            videos.forEach((vid, index) => {
+                listaDiv.innerHTML += `
+                    <div style="background: #fff; padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                        <h4 style="margin: 0 0 10px 0; color: #2c3e50;">${vid.titulo}</h4>
+                        <p style="margin: 0 0 10px 0; font-size: 14px;">${vid.descricao}</p>
+                        <a href="${vid.url}" target="_blank" style="color: #3498db; text-decoration: none; font-size: 14px; display:block; margin-bottom: 10px;">Assistir Vídeo 📺</a>
+                        <button onclick="editarVideo(${index})" style="background-color: #f1c40f; color: #000; width: 48%; padding: 8px;">Editar</button>
+                        <button onclick="excluirVideo(${index})" style="background-color: #e74c3c; width: 48%; padding: 8px;">Excluir</button>
+                    </div>
+                `;
             });
         }
 
-        function resetForm() {
-            document.getElementById('videoForm').reset();
-            document.getElementById('formTitle').innerText = "Cadastrar Novo Vídeo";
-            document.getElementById('btnSubmit').innerText = "Cadastrar Vídeo";
-            document.getElementById('btnCancelar').style.display = "none";
-            document.getElementById('videoForm').action = "/videos";
-            document.getElementById('videoForm').onsubmit = null;
+        videoForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Impede a página de recarregar
+            
+            const id = document.getElementById('videoId').value;
+            const titulo = document.getElementById('titulo').value;
+            const url = document.getElementById('url').value;
+            const descricao = document.getElementById('descricao').value;
+
+            if(id === "") {
+                // Cadastrar novo
+                videos.push({ titulo, url, descricao });
+            } else {
+                // Atualizar existente
+                videos[id] = { titulo, url, descricao };
+            }
+
+            // Salva na memória do navegador
+            localStorage.setItem('vpc_videos', JSON.stringify(videos));
+            
+            resetForm();
+            carregarVideos();
+        });
+
+        function editarVideo(index) {
+            const vid = videos[index];
+            document.getElementById('videoId').value = index;
+            document.getElementById('titulo').value = vid.titulo;
+            document.getElementById('url').value = vid.url;
+            document.getElementById('descricao').value = vid.descricao;
+            
+            document.getElementById('formTitle').innerText = "Editar Aula";
+            document.getElementById('btnSubmit').innerText = "Salvar Alterações";
+            document.getElementById('btnCancelar').style.display = "block";
         }
 
+        function excluirVideo(index) {
+            if(confirm("Tem certeza que deseja excluir esta aula?")) {
+                videos.splice(index, 1);
+                localStorage.setItem('vpc_videos', JSON.stringify(videos));
+                carregarVideos();
+            }
+        }
+
+        function resetForm() {
+            videoForm.reset();
+            document.getElementById('videoId').value = "";
+            document.getElementById('formTitle').innerText = "Cadastrar Novo Vídeo";
+            document.getElementById('btnSubmit').innerText = "Salvar Aula";
+            document.getElementById('btnCancelar').style.display = "none";
+        }
+
+        // Inicializa a tela
         carregarVideos();
     </script>
 </body>
