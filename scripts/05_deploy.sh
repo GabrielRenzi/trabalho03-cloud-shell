@@ -37,3 +37,14 @@ executar_deploy() {
 
 mkdir -p /app/logs
 executar_deploy
+
+echo "⚙️ Configurando e iniciando o servidor Apache..."
+
+if ! grep -q "ServerName localhost" /etc/apache2/apache2.conf; then
+    echo "ServerName localhost" >> /etc/apache2/apache2.conf
+fi
+
+source /etc/apache2/envvars
+apachectl start > /dev/null 2>&1
+
+echo -e "\033[0;32m[SUCESSO] Deploy concluído e Servidor ONLINE! Acesse: http://localhost:8080\033[0m"
