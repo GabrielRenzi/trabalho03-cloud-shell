@@ -1,21 +1,21 @@
 ==================================================
    MÉTRICAS DE HARDWARE - VPC-STREAMING-EDU
-   Gerado em: 2026-06-04 19:25:35
+   Gerado em: 2026-06-08 22:10:26
 ==================================================
 
 --- Armazenamento de Vídeos (Uso do Disco) ---
 Filesystem      Size  Used Avail Use% Mounted on
-C:\             931G  575G  357G  62% /app
+C:\             238G  201G   37G  85% /app
 
 --- Consumo de Memória RAM ---
                total        used        free      shared  buff/cache   available
-Mem:            6791         555        4954           4        1280        6063
-Swap:           2048           0        2048
+Mem:            2829         719         159           5        1949        2016
+Swap:           1024           2        1021
 
 --- Top Processos Consumidores ---
-USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-root         1  0.0  0.0   2824  1660 pts/0    Ss+  19:23   0:00 tail -f /dev/null
-root         7  0.0  0.0   4628  3728 pts/1    Ss   19:23   0:00 bash
-root        19  0.0  0.0   4496  3600 pts/1    S+   19:24   0:00 /bin/bash ./menu.sh
-root      5143  0.0  0.0   6780  4860 ?        Ss   19:25   0:00 /usr/sbin/apache2 -k start
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+www-data    5165  0.2  0.1 1998180 5100 ?        Sl   22:10   0:00 /usr/sbin/apache2 -k start
+www-data    5164  0.1  0.1 1998180 5096 ?        Sl   22:10   0:00 /usr/sbin/apache2 -k start
+root           1  0.0  0.0   2824  1676 pts/0    Ss+  22:05   0:00 tail -f /dev/null
+root           7  0.0  0.1   4628  3180 pts/1    Ss   22:05   0:00 bash
 ==================================================

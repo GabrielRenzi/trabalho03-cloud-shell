@@ -42,3 +42,12 @@ drwxr-xr-x 1 root root 4096 Jun  4 19:25 logs_transmissao
 drwxr-xr-x 1 root root 4096 Jun  4 19:25 metadados_cursos
 -rw-r--r-- 1 root root   32 Jun  4 19:25 status.txt
 drwxr-xr-x 1 root root 4096 Jun  4 19:25 video_aulas
+[2026-06-08 22:10:14] Configurando diretórios da aplicação...
+Limpando versões antigas do diretório do app...
+[0;32m[SUCESSO] Estrutura de pastas para streaming criada com sucesso em /app/vpc_streaming_edu![0m
+total 0
+drwxr-xr-x 1 root root 4096 Jun  8 22:10 lives_gravadas
+drwxr-xr-x 1 root root 4096 Jun  8 22:10 logs_transmissao
+drwxr-xr-x 1 root root 4096 Jun  8 22:10 metadados_cursos
+-rw-r--r-- 1 root root   32 Jun  8 22:10 status.txt
+drwxr-xr-x 1 root root 4096 Jun  8 22:10 video_aulas
